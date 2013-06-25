@@ -1,0 +1,62 @@
+.holder {
+    margin:15px 0;
+    
+    display: none; /* disabled */
+}
+.holder a {
+    font-size:12px;
+    cursor:pointer;
+    margin:0 5px;
+    color:#333;
+}
+.holder a:hover {
+    background-color:#222;
+    color:#fff;
+}
+.holder a.jp-current,a.jp-current:hover {
+    color:#FF4242;
+    font-weight:bold;
+    cursor:default;
+    background:none;
+}
+.holder span {
+    margin:0 5px;
+}
+.customBtns {
+    position:relative;
+}
+.arrowPrev1, .arrowNext1, .arrowPrev2, .arrowNext2 {
+    width:15px;
+    height:15px;
+    position:absolute;
+    cursor:pointer;
+}
+.arrowPrev1, .arrowPrev2 {
+    top:19px;
+    right:-20px;
+    background-image: url(../images/carousel_left.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.arrowNext1, .arrowNext2 {
+    top:0;
+    right:-20px;
+    background-image: url(../images/carousel_right.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.arrowPrev1.jp-disabled,.arrowNext1.jp-disabled, .arrowPrev2.jp-disabled,.arrowNext2.jp-disabled, .arrowPrev1.jp-disabled:hover,.arrowNext1.jp-disabled:hover, .arrowPrev2.jp-disabled:hover,.arrowNext2.jp-disabled:hover {
+    background-color: #b5b5b5;
+}
+.customBtns-phone {
+    margin-bottom: 15px;
+    position: relative;
+    height: 15px;
+}
+.customBtns-phone .arrowPrev1, .customBtns-phone .arrowNext1, .customBtns-phone .arrowPrev2, .customBtns-phone .arrowNext2 {
+    float: left;
+    left: 0;
+    margin-right: 5px;
+    position: relative;
+    top: 0;
+}
